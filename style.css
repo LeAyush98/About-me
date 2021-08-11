@@ -1,0 +1,216 @@
+.navbar-brand{
+    padding-left: 4px; ;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+h1
+{   font-size: 5em;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+.skill-row{
+   width:50%;
+   margin: 100px auto 100px auto;
+   
+   line-height: 2;
+}
+
+.first {
+    padding: 5rem;
+    padding-bottom: 0%;
+    background-color: #CDF0EA;
+    margin: 0cm, auto, 0cm, auto;
+    
+    
+    
+}
+.bold{
+    font-size: 1.5rem;
+    color: #66BFBF;
+}
+    
+h2{
+    padding: 2rem;
+    color: #66BFBF;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4rem;
+}
+
+h3{
+    padding-bottom: 4rem;
+    color: #66BFBF;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+
+}
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+}
+.pic{
+    margin: 3rem auto 0rem auto;
+    height: 5cm;
+    width: 5cm;
+    border-radius: 5cm;
+    
+}
+
+.code{
+  padding: 1rem;
+  resize: both;
+  width: 16rem;
+  height: 15rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+
+}
+
+.bag{
+    padding: 1rem;
+  resize: both;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  margin-bottom: 4rem;
+  
+
+}
+
+.solve {
+    
+      padding: 1rem;
+      resize: both;
+      width: 24rem;
+      height: 23rem;
+    
+    
+    
+}
+
+.middle-container{
+    padding: 3rem;
+    background-color: #EDF6E5;
+}
+
+.bottom-cloud{
+    position: absolute; 
+    left: 12%;    
+    top: 45%;
+    resize: both;
+    width: 24%;
+    height: 20%;
+    animation: linear infinite;
+    animation-name: runRight;
+    animation-duration: 25s;
+
+}
+
+.top-cloud{
+
+    position: absolute;
+    right: 10%;
+    top: 17%;
+    resize:both;
+    width: 24%;
+    height: 20%;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 25s;
+   
+     
+      }
+
+
+.together {
+    display: inline-block;
+}
+
+
+
+.building {
+        margin: 0%;
+        object-fit:fill;
+        width: 100%;
+        height: 100%;
+}
+
+.tables {
+    margin: auto;
+    text-align: center;
+}
+
+
+.project {
+    background-color: #FEF7DC;
+    margin-bottom: 0;
+}
+
+@keyframes run {
+    0% {
+      left: 73%;
+    }
+    50% {
+      left: 0;
+    }
+    100% {
+      left: 73%;    
+    }
+
+}
+
+@keyframes runRight {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 75%;
+    }
+    100% {
+      left: 0;    
+    }
+
+}
+.listI{
+    margin: 5rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+}
+
+.listE{
+    margin: 5rem 5rem 0rem 5rem;
+    padding-bottom: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+}
+
+
+
+.bottom-container{
+    margin:0;
+ background-color: #FFE194;
+
+
+}
+
+#contact{
+    margin:2.5rem;
+}
+
+.final
+{
+    display: inline-block;
+}
+
+.nav-link{
+    color: white;
+}
